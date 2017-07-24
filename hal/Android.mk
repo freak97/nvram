@@ -25,7 +25,6 @@ LOCAL_MODULE := fake-nvram
 LOCAL_SRC_FILES := \
 	fake_nvram.cpp \
 	fake_nvram_storage.cpp
-LOCAL_CLANG := true
 LOCAL_CFLAGS := -Wall -Werror -Wextra
 LOCAL_STATIC_LIBRARIES := libnvram-core
 LOCAL_SHARED_LIBRARIES := \
